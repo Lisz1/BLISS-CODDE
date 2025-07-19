@@ -148,6 +148,7 @@
                 <a href="#courses" class="text-sm hover:text-indigo-200 transition">Courses</a>
                 <a href="#about" class="text-sm hover:text-indigo-200 transition">About</a>
                 <a href="#contact" class="text-sm hover:text-indigo-200 transition">Contact</a>
+                <a href="./tutor-dashboard/src/tutor.html" class="text-sm hover:text-indigo-200 transition">Tutor</a>
             </div>
             <button id="mobile-menu-btn" aria-label="Toggle mobile menu" class="md:hidden text-xl focus:ring-2 focus:ring-indigo-500">
                 <i class="fas fa-bars" aria-hidden="true"></i>
@@ -157,19 +158,35 @@
             <a href="#courses" class="block py-2 text-sm text-white hover:text-indigo-200 transition">Courses</a>
             <a href="#about" class="block py-2 text-sm text-white hover:text-indigo-200 transition">About</a>
             <a href="#contact" class="block py-2 text-sm text-white hover:text-indigo-200 transition">Contact</a>
+            <a href="./tutor-dashboard/src/tutor.html" class="block py-2 text-sm text-white hover:text-indigo-200 transition">Tutor</a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-12 sm:py-16">
-        <div class="container mx-auto px-4 sm:px-6">
-            <div class="max-w-3xl mx-auto text-center" data-animate="fade-in">
-                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Start Your Tech Journey with S.M.A.R.T</h1>
-                <p class="text-base sm:text-lg md:text-xl mb-6 sm:mb-8">Join our expert-led courses by Bliss and transform your career in tech.</p>
-                <a href="#courses" class="bg-white text-indigo-700 font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full hover:bg-indigo-100 transition duration-300 inline-block">Explore Courses</a>
-            </div>
-        </div>
-    </section>
+<!-- Hero Section -->
+<section 
+  class="relative text-white py-12 sm:py-16"
+  style="background-image: url('./tutor-dashboard/src/Screenshot 2025-07-19 122714.png'); background-size: cover; background-position: center;"
+>
+
+  <!-- Gradient Overlay (indigo to purple, transparent) -->
+  <div class="absolute inset-0 bg-gradient-to-r from-indigo-700/70 to-purple-700/70 z-0"></div>
+
+  <!-- Optional black fade overlay (optional, you can remove if too dark) -->
+  <!-- <div class="absolute inset-0 bg-black opacity-50 z-0"></div> -->
+
+  <!-- Text Content -->
+  <div class="container mx-auto px-4 sm:px-6 relative z-10">
+    <div class="max-w-3xl mx-auto text-center" data-animate="fade-in">
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Start Your Tech Journey with S.M.A.R.T</h1>
+      <p class="text-base sm:text-lg md:text-xl mb-6 sm:mb-8">
+        Join our expert-led courses by Bliss and transform your career in tech.
+      </p>
+      <a href="#courses" class="bg-white text-indigo-700 font-bold py-2 sm:py-3 px-6 sm:px-8 rounded-full hover:bg-indigo-100 transition duration-300 inline-block">
+        Explore Courses
+      </a>
+    </div>
+  </div>
+</section>
 
     <!-- Main Content -->
     <main class="container mx-auto px-4 sm:px-6 py-12 sm:py-16">

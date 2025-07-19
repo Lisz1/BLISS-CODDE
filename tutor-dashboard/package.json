@@ -1,0 +1,30 @@
+{
+  "name": "tutor-dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard for tutors to manage their courses and students, styled similarly to the S.M.A.R.T website.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "tutor",
+    "dashboard",
+    "education",
+    "S.M.A.R.T"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "homepage": "https://yourdomain.com/tutor-dashboard",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/tutor-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/tutor-dashboard/issues"
+  }
+}
